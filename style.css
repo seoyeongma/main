@@ -28,7 +28,7 @@ body {
 }
 
 .name {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
 }
 
@@ -88,9 +88,9 @@ nav a:hover {
 /* caption */
 
 .caption {
-  margin-top: 14px;
+  margin-top: 18px;
 
-  font-size: 14px;
+  font-size: 18px;
 
   text-align: center;
 
