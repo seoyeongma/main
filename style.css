@@ -175,22 +175,24 @@ nav a:hover {
 
   line-height: 1.4;
 }
-/* description section */
+/* centered description */
 
 .work-description {
 
   max-width: 900px;
 
-  margin: 120px auto;
+  margin: 140px auto 120px auto;
 
-  font-size: 18px;
-
-  line-height: 1.8;
+  text-align: center;
 }
 
 .work-description p {
 
-  margin-bottom: 30px;
+  font-size: 22px;
+
+  line-height: 1.8;
+
+  margin-bottom: 40px;
 }
 
 /* installation images */
@@ -199,13 +201,7 @@ nav a:hover {
 
   max-width: 1400px;
 
-  margin: 0 auto 120px auto;
-
-  display: grid;
-
-  grid-template-columns: 1fr;
-
-  gap: 40px;
+  margin: 0 auto 140px auto;
 }
 
 .installation-images img {
@@ -213,6 +209,8 @@ nav a:hover {
   width: 100%;
 
   display: block;
+
+  margin-bottom: 40px;
 }
 
 /* mobile */
