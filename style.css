@@ -120,3 +120,51 @@ nav a:hover {
   }
 
 }
+/* detail page */
+
+.detail-page {
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1.5fr 1fr;
+
+  gap: 60px;
+
+  align-items: start;
+}
+
+.detail-image {
+
+  width: 100%;
+
+  display: block;
+}
+
+.detail-text h1 {
+
+  font-size: 28px;
+
+  font-weight: 400;
+
+  margin-bottom: 20px;
+}
+
+.detail-text p {
+
+  margin-bottom: 16px;
+
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+
+  .detail-page {
+
+    grid-template-columns: 1fr;
+  }
+
+}
