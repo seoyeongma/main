@@ -175,27 +175,35 @@ nav a:hover {
 
   line-height: 1.4;
 }
-/* centered description */
+/* bilingual work description */
 
 .work-description {
 
-  max-width: 900px;
+  max-width: 1200px;
 
   margin: 50px auto 120px auto;
+
+  display: flex;
+
+  gap: 80px;
 }
 
-/* description text */
+.description-column {
 
-.work-description-text {
+  flex: 1;
+}
+
+.description-column p {
 
   font-size: 16px;
 
-  line-height: 1.4;
+  line-height: 1.6;
 
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 
   text-align: justify;
 }
+
 
 /* installation images */
 
@@ -302,6 +310,12 @@ nav a:hover {
   .detail-text p {
 
     font-size: 16px;
+  }
+  .work-description {
+
+  flex-direction: column;
+
+  gap: 40px;
   }
 
 }
