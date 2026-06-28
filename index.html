@@ -1,65 +1,89 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seoyeong Ma</title>
-  <link rel="stylesheet" href="style.css" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Seoyeong Ma</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-  <header class="topbar">
-    <div class="name">Seoyeong Ma</div>
+<div class="homepage">
 
-    <nav>
-      <a href="works.html">Works</a>
-      <a href="exhibitions.html">Exhibitions</a>
-      <a href="text.html">Texts</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<svg viewBox="0 0 1200 900" class="diagram">
 
-  <main class="gallery">
+    <!-- Vertical -->
 
-    <a class="work" href="works/arrangement-of-silent-fragments.html">
-      <img src="images/work1.jpg" alt="">
-      <div class="caption">
-        Arrangement of Silent Fragments
-      </div>
+    <line x1="600" y1="70" x2="600" y2="820"/>
+
+    <!-- Squares -->
+
+    <rect x="594" y="60" width="12" height="12"/>
+    <rect x="594" y="355" width="12" height="12"/>
+    <rect x="594" y="640" width="12" height="12"/>
+    <rect x="594" y="810" width="12" height="12"/>
+
+    <rect x="115" y="355" width="12" height="12"/>
+    <rect x="1073" y="355" width="12" height="12"/>
+
+    <!-- Top -->
+
+    <path d="M420 330 A220 220 0 0 1 600 150"/>
+    <path d="M600 150 A220 220 0 0 1 780 330"/>
+
+    <!-- Left -->
+
+    <path d="M220 350 A220 220 0 0 1 420 560"/>
+    <path d="M420 560 A220 220 0 0 1 220 350"/>
+
+    <!-- Right -->
+
+    <path d="M780 330 A220 220 0 0 1 980 560"/>
+    <path d="M980 560 A220 220 0 0 1 780 330"/>
+
+    <!-- Bottom -->
+
+    <path d="M420 560 A220 220 0 0 0 600 740"/>
+    <path d="M600 740 A220 220 0 0 0 780 560"/>
+
+    <!-- Links -->
+
+    <a href="works.html">
+        <text x="600" y="145" class="menu">Works</text>
     </a>
 
-    <a class="work" href="works/tontauben-the-material-state-after-collapse-1.html">
-      <img src="images/work2.jpg" alt="">
-      <div class="caption">
-        Tontauben: The Material State After Collapse Ⅰ
-      </div>
+    <a href="text.html">
+        <text x="180" y="370" class="menu left">Texts</text>
     </a>
 
-    <a class="work" href="works/tontauben-the-material-state-after-collapse-2.html">
-      <img src="images/work3.jpg" alt="">
-      <div class="caption">
-        Tontauben: The Material State After Collapse Ⅱ
-      </div>
-    </a>
-    
-    <a class="work" href="works/tontauben-the-material-state-after-collapse-3.html">
-      <img src="images/work4.jpg" alt="">
-      <div class="caption">
-        Tontauben: The Material State After Collapse Ⅲ
-      </div>
-      
+    <a href="bio.html">
+        <text x="1020" y="370" class="menu right">Bio</text>
     </a>
 
-        <a class="work" href="works/bae-baeng-i-gut.html">
-      <img src="images/work5.png" alt="">
-      <div class="caption">
-        Bae-baeng-i-gut
-      </div>
+    <a href="cv.html">
+        <text x="600" y="710" class="menu">CV</text>
     </a>
-    
-  </main>
+
+    <a href="contact.html">
+        <text x="600" y="885" class="menu">Contact</text>
+    </a>
+
+    <text x="600" y="380" class="center">
+        Seoyeong Ma
+    </text>
+
+</svg>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
