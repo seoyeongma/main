@@ -1,15 +1,14 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Seoyeong Ma</title>
+    <title>Seoyeong Ma</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -17,67 +16,195 @@
 
 <div class="homepage">
 
-<svg viewBox="0 0 1200 900" class="diagram">
+<svg
+class="diagram"
+viewBox="0 0 1200 900"
+xmlns="http://www.w3.org/2000/svg">
 
-    <!-- Vertical -->
+<!-- ===========================
+BACKGROUND
+============================ -->
 
-    <line x1="600" y1="70" x2="600" y2="820"/>
+<g class="structure">
 
-    <!-- Squares -->
+<!-- vertical line -->
 
-    <rect x="594" y="60" width="12" height="12"/>
-    <rect x="594" y="355" width="12" height="12"/>
-    <rect x="594" y="640" width="12" height="12"/>
-    <rect x="594" y="810" width="12" height="12"/>
+<line
+class="main-line"
+x1="600"
+y1="50"
+x2="600"
+y2="835"/>
 
-    <rect x="115" y="355" width="12" height="12"/>
-    <rect x="1073" y="355" width="12" height="12"/>
+<!-- squares -->
 
-    <!-- Top -->
+<rect class="node top" x="594" y="42" width="12" height="12"/>
 
-    <path d="M420 330 A220 220 0 0 1 600 150"/>
-    <path d="M600 150 A220 220 0 0 1 780 330"/>
+<rect class="node center-top" x="594" y="352" width="12" height="12"/>
 
-    <!-- Left -->
+<rect class="node center-bottom" x="594" y="640" width="12" height="12"/>
 
-    <path d="M220 350 A220 220 0 0 1 420 560"/>
-    <path d="M420 560 A220 220 0 0 1 220 350"/>
+<rect class="node bottom" x="594" y="830" width="12" height="12"/>
 
-    <!-- Right -->
+<rect class="node left" x="108" y="352" width="12" height="12"/>
 
-    <path d="M780 330 A220 220 0 0 1 980 560"/>
-    <path d="M980 560 A220 220 0 0 1 780 330"/>
+<rect class="node right" x="1080" y="352" width="12" height="12"/>
 
-    <!-- Bottom -->
+<!-- ===========================
+TOP PETAL
+============================ -->
 
-    <path d="M420 560 A220 220 0 0 0 600 740"/>
-    <path d="M600 740 A220 220 0 0 0 780 560"/>
+<path
+class="curve works-left"
+d="M600 355
+C540 250
+470 185
+380 160"/>
 
-    <!-- Links -->
+<path
+class="curve works-right"
+d="M600 355
+C660 250
+730 185
+820 160"/>
 
-    <a href="works.html">
-        <text x="600" y="145" class="menu">Works</text>
-    </a>
+<!-- ===========================
+LEFT PETAL
+============================ -->
 
-    <a href="text.html">
-        <text x="180" y="370" class="menu left">Texts</text>
-    </a>
+<path
+class="curve texts-top"
+d="M420 355
+C330 280
+250 280
+170 360"/>
 
-    <a href="bio.html">
-        <text x="1020" y="370" class="menu right">Bio</text>
-    </a>
+<path
+class="curve texts-bottom"
+d="M420 355
+C330 430
+250 430
+170 360"/>
 
-    <a href="cv.html">
-        <text x="600" y="710" class="menu">CV</text>
-    </a>
+<!-- ===========================
+RIGHT PETAL
+============================ -->
 
-    <a href="contact.html">
-        <text x="600" y="885" class="menu">Contact</text>
-    </a>
+<path
+class="curve bio-top"
+d="M780 355
+C870 280
+950 280
+1030 360"/>
 
-    <text x="600" y="380" class="center">
-        Seoyeong Ma
-    </text>
+<path
+class="curve bio-bottom"
+d="M780 355
+C870 430
+950 430
+1030 360"/>
+
+<!-- ===========================
+BOTTOM PETAL
+============================ -->
+
+<path
+class="curve cv-left"
+d="M600 650
+C540 740
+470 790
+380 805"/>
+
+<path
+class="curve cv-right"
+d="M600 650
+C660 740
+730 790
+820 805"/>
+
+</g>
+
+<!-- ===========================
+LINKS
+============================ -->
+
+<a href="works.html">
+
+<text
+class="menu works"
+x="600"
+y="145">
+
+Works
+
+</text>
+
+</a>
+
+<a href="text.html">
+
+<text
+class="menu texts"
+x="180"
+y="372">
+
+Texts
+
+</text>
+
+</a>
+
+<a href="bio.html">
+
+<text
+class="menu bio"
+x="1020"
+y="372">
+
+Bio
+
+</text>
+
+</a>
+
+<a href="cv.html">
+
+<text
+class="menu cv"
+x="600"
+y="715">
+
+CV
+
+</text>
+
+</a>
+
+<a href="contact.html">
+
+<text
+class="menu contact"
+x="600"
+y="895">
+
+Contact
+
+</text>
+
+</a>
+
+<!-- ===========================
+CENTER NAME
+============================ -->
+
+<text
+class="center-name"
+x="600"
+y="380">
+
+Seoyeong Ma
+
+</text>
 
 </svg>
 
@@ -86,4 +213,5 @@
 <script src="script.js"></script>
 
 </body>
+
 </html>
