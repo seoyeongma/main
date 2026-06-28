@@ -332,7 +332,7 @@ nav a:hover {
 
     width:100%;
 
-    height:calc(100vh - 60px);
+    min-height:calc(100vh - 60px);
 
     display:flex;
 
@@ -345,7 +345,7 @@ nav a:hover {
 
 .diagram{
 
-    width:min(88vw,980px);
+    width:min(92vw,1100px);
 
     height:auto;
 
