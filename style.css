@@ -5,11 +5,16 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  background: white;
-  color: black;
 
-  padding: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+
+  background:#fcfcfa;
+
+  color:#111;
+
+  padding:30px;
+
+  min-height:100vh;
 }
 
 /* top menu */
@@ -317,5 +322,321 @@ nav a:hover {
 
   gap: 40px;
   }
+
+}
+/* =======================================================
+   HOME PAGE
+======================================================= */
+
+.homepage{
+
+    width:100%;
+
+    height:calc(100vh - 60px);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+/* SVG */
+
+.diagram{
+
+    width:min(88vw,980px);
+
+    height:auto;
+
+    overflow:visible;
+}
+
+/* -------------------------------------------------------
+LINES
+------------------------------------------------------- */
+
+.diagram line,
+.diagram path{
+
+    fill:none;
+
+    stroke:#f26b1d;
+
+    stroke-width:1.8;
+
+    stroke-linecap:round;
+
+    stroke-linejoin:round;
+
+    vector-effect:non-scaling-stroke;
+}
+
+.diagram rect{
+
+    fill:#f26b1d;
+
+    stroke:none;
+}
+
+/* -------------------------------------------------------
+CENTER NAME
+------------------------------------------------------- */
+
+.center-name{
+
+    fill:#f26b1d;
+
+    font-size:34px;
+
+    font-weight:300;
+
+    text-anchor:middle;
+
+    dominant-baseline:middle;
+
+    letter-spacing:.03em;
+
+    user-select:none;
+}
+
+/* -------------------------------------------------------
+MENU
+------------------------------------------------------- */
+
+.menu{
+
+    fill:#f26b1d;
+
+    font-size:18px;
+
+    font-weight:300;
+
+    cursor:pointer;
+
+    user-select:none;
+
+    transition:
+
+    fill .35s ease,
+
+    letter-spacing .35s ease,
+
+    transform .35s ease;
+}
+
+.menu.works{
+
+    text-anchor:middle;
+}
+
+.menu.cv{
+
+    text-anchor:middle;
+}
+
+.menu.contact{
+
+    text-anchor:middle;
+}
+
+.menu.texts{
+
+    text-anchor:start;
+}
+
+.menu.bio{
+
+    text-anchor:end;
+}
+
+.diagram a{
+
+    text-decoration:none;
+}
+
+/* -------------------------------------------------------
+HOVER
+------------------------------------------------------- */
+
+.diagram a:hover .menu{
+
+    fill:#ff9a4d;
+
+    letter-spacing:.08em;
+}
+
+/* -------------------------------------------------------
+DRAW ANIMATION
+------------------------------------------------------- */
+
+.main-line{
+
+    stroke-dasharray:900;
+
+    stroke-dashoffset:900;
+
+    animation:draw 1.8s ease forwards;
+}
+
+.curve{
+
+    stroke-dasharray:420;
+
+    stroke-dashoffset:420;
+
+    animation:draw 1.5s ease forwards;
+}
+
+.works-left{
+
+    animation-delay:.15s;
+}
+
+.works-right{
+
+    animation-delay:.25s;
+}
+
+.texts-top{
+
+    animation-delay:.4s;
+}
+
+.texts-bottom{
+
+    animation-delay:.5s;
+}
+
+.bio-top{
+
+    animation-delay:.65s;
+}
+
+.bio-bottom{
+
+    animation-delay:.75s;
+}
+
+.cv-left{
+
+    animation-delay:.9s;
+}
+
+.cv-right{
+
+    animation-delay:1s;
+}
+
+.node{
+
+    opacity:0;
+
+    animation:fade .3s forwards;
+}
+
+.top{
+
+    animation-delay:.1s;
+}
+
+.center-top{
+
+    animation-delay:.35s;
+}
+
+.left{
+
+    animation-delay:.6s;
+}
+
+.right{
+
+    animation-delay:.8s;
+}
+
+.center-bottom{
+
+    animation-delay:1s;
+}
+
+.bottom{
+
+    animation-delay:1.2s;
+}
+
+.center-name{
+
+    opacity:0;
+
+    animation:fade .8s forwards;
+
+    animation-delay:1.4s;
+}
+
+.menu{
+
+    opacity:0;
+
+    animation:fade .8s forwards;
+
+    animation-delay:1.7s;
+}
+
+@keyframes draw{
+
+    to{
+
+        stroke-dashoffset:0;
+
+    }
+
+}
+
+@keyframes fade{
+
+    from{
+
+        opacity:0;
+    }
+
+    to{
+
+        opacity:1;
+    }
+
+}
+
+/* -------------------------------------------------------
+RESPONSIVE
+------------------------------------------------------- */
+
+@media (max-width:900px){
+
+.homepage{
+
+height:auto;
+
+padding-top:60px;
+
+}
+
+.diagram{
+
+width:96vw;
+
+}
+
+.center-name{
+
+font-size:26px;
+
+}
+
+.menu{
+
+font-size:15px;
+
+}
 
 }
