@@ -42,13 +42,15 @@ body{
 }
 
 .name{
+  font-family: "Source Serif 4", serif;
   font-size:30px;
   font-weight:400;
+  color:#F36A21;
 }
 
 .name a{
   text-decoration:none;
-  color:#111;
+  color:#F36A21;
 }
 
 nav{
