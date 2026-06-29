@@ -15,26 +15,90 @@ body{
 /* ---------- Homepage ---------- */
 
 .homepage{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:calc(100vh - 90px);
-  width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:calc(100vh - 90px);
 }
 
 .flower-container{
-  position:relative;
-  width:900px;
-  max-width:90vw;
-  aspect-ratio:16 / 9;
+    position:relative;
+    width:900px;
+    max-width:90vw;
+    aspect-ratio:1920 / 1080;
 }
 
 .homepage-svg{
-  width:100%;
-  height:100%;
-  display:block;
+    width:100%;
+    height:100%;
+    display:block;
 }
 
+/* ---------- Navigation ---------- */
+
+.flower-container a{
+
+    position:absolute;
+
+    font-family:"Source Serif 4", serif;
+    font-size:22px;
+    font-weight:400;
+
+    color:#F36A21;
+
+    text-decoration:none;
+
+    transition:.25s ease;
+}
+
+.flower-container a:hover{
+    opacity:.55;
+}
+
+/* Works */
+
+.works{
+
+    left:50%;
+    top:8.5%;
+    transform:translate(-50%,-100%);
+}
+
+/* Texts */
+
+.texts{
+
+    left:6%;
+    top:49%;
+    transform:translate(-100%,-50%);
+}
+
+/* Bio */
+
+.bio{
+
+    right:6%;
+    top:49%;
+    transform:translate(100%,-50%);
+}
+
+/* CV */
+
+.cv{
+
+    left:50%;
+    top:66.5%;
+    transform:translate(-50%,35%);
+}
+
+/* Contact */
+
+.contact{
+
+    left:50%;
+    top:92.8%;
+    transform:translate(-50%,35%);
+}
 /* ---------- Top Navigation (used on sub pages) ---------- */
 
 .topbar{
@@ -69,79 +133,6 @@ nav a:hover{
   opacity:.45;
 }
 
-/* ---------- Homepage Navigation ---------- */
-
-.flower-container a{
-
-  position:absolute;
-
-  font-family:"Source Serif 4", serif;
-  font-size:22px;
-  font-weight:400;
-
-  color:#F36A21;
-
-  text-decoration:none;
-
-  transition:opacity .2s ease;
-
-}
-
-.flower-container a:hover{
-
-  opacity:.5;
-
-}
-
-/* Works */
-
-.works{
-
-  top:10%;
-  left:50%;
-  transform:translateX(-50%);
-
-}
-
-/* Bio */
-
-.bio{
-
-  top:50%;
-  right:8%;
-  transform:translateY(-50%);
-
-}
-
-/* Texts */
-
-.texts{
-
-  top:50%;
-  left:8%;
-  transform:translateY(-50%);
-
-}
-
-/* CV */
-
-.cv{
-
-  bottom:12%;
-  left:50%;
-  transform:translateX(-50%);
-
-}
-
-/* Contact */
-
-.contact{
-
-  bottom:2%;
-  left:50%;
-  transform:translateX(-50%);
-
-}
 
 /* ---------- Gallery ---------- */
 
