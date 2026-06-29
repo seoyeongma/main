@@ -60,7 +60,7 @@ body{
 .works{
 
     left:50%;
-    top:25.5%;
+    top:24.5%;
     transform:translate(-50%,-100%);
 }
 
@@ -68,7 +68,7 @@ body{
 
 .texts{
 
-    left:30%;
+    left:40%;
     top:49%;
     transform:translate(-100%,-50%);
 }
@@ -77,7 +77,7 @@ body{
 
 .bio{
 
-    right:30%;
+    right:40%;
     top:49%;
     transform:translate(100%,-50%);
 }
@@ -87,7 +87,7 @@ body{
 .cv{
 
     left:50%;
-    top:75%;
+    top:77%;
     transform:translate(-50%,35%);
 }
 
