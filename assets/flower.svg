@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1920 1080"
+     width="1920" height="1080">
+
+  <defs>
+    <style>
+      .line {
+        stroke:#F36A21;
+        stroke-width:2;
+        fill:none;
+      }
+      .node {
+        fill:#F36A21;
+      }
+    </style>
+  </defs>
+
+  <!-- Vertical line -->
+  <line class="line" x1="960" y1="125" x2="960" y2="955"/>
+
+  <!-- Horizontal line -->
+  <line class="line" x1="555" y1="530" x2="1365" y2="530"/>
+
+  <!-- Nodes -->
+  <rect class="node" x="954" y="119" width="12" height="12"/>
+  <rect class="node" x="954" y="373" width="12" height="12"/>
+  <rect class="node" x="954" y="524" width="12" height="12"/>
+  <rect class="node" x="954" y="663" width="12" height="12"/>
+  <rect class="node" x="954" y="925" width="12" height="12"/>
+
+  <rect class="node" x="549" y="524" width="12" height="12"/>
+  <rect class="node" x="818" y="524" width="12" height="12"/>
+  <rect class="node" x="1090" y="524" width="12" height="12"/>
+  <rect class="node" x="1359" y="524" width="12" height="12"/>
+
+</svg>
