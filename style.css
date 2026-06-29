@@ -23,7 +23,7 @@ body{
 
 .flower-container{
     position:relative;
-    width:900px;
+    width:1000px;
     max-width:90vw;
     aspect-ratio:1920 / 1080;
 }
