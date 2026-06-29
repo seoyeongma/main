@@ -99,6 +99,24 @@ body{
     top:90%;
     transform:translate(-50%,35%);
 }
+
+/* ---------- Center Name ---------- */
+
+.center-name{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+
+    font-family:"Source Serif 4", serif;
+    font-size:52px;
+    font-weight:400;
+    color:#F36A21;
+
+    white-space:nowrap;
+    pointer-events:none;
+}
+
 /* ---------- Top Navigation (used on sub pages) ---------- */
 
 .topbar{
