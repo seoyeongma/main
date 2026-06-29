@@ -48,11 +48,6 @@ body{
   color:#F36A21;
 }
 
-.name a{
-  text-decoration:none;
-  color:#F36A21;
-}
-
 nav{
   display:flex;
   gap:30px;
