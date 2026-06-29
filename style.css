@@ -115,6 +115,8 @@ body{
   font-size:30px;
   font-weight:400;
   color:#F36A21;
+  text-decoration:none;
+  transition:opacity .2s ease;
 }
 
 nav{
