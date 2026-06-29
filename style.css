@@ -60,7 +60,7 @@ body{
 .works{
 
     left:50%;
-    top:20.8%;
+    top:21%;
     transform:translate(-50%,-100%);
 }
 
@@ -105,7 +105,7 @@ body{
 .center-name{
     position:absolute;
     left:50%;
-    top:50%;
+    top:49%;
     transform:translate(-50%,-50%);
 
     font-family:"Source Serif 4", serif;
