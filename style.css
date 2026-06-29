@@ -60,7 +60,7 @@ body{
 .works{
 
     left:50%;
-    top:25.5%;
+    top:24.5%;
     transform:translate(-50%,-100%);
 }
 
@@ -77,7 +77,7 @@ body{
 
 .bio{
 
-    right:35%;
+    right:33%;
     top:49%;
     transform:translate(100%,-50%);
 }
