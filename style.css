@@ -15,18 +15,23 @@ body{
 /* ---------- Homepage ---------- */
 
 .homepage{
-  width:100vw;
-  height:100vh;
   display:flex;
   justify-content:center;
   align-items:center;
-  overflow:hidden;
+  height:calc(100vh - 90px);
+  width:100%;
+}
+
+.flower-container{
+  position:relative;
+  width:900px;
+  max-width:90vw;
+  aspect-ratio:16 / 9;
 }
 
 .homepage-svg{
   width:100%;
   height:100%;
-  border:none;
   display:block;
 }
 
@@ -62,6 +67,80 @@ nav a{
 
 nav a:hover{
   opacity:.45;
+}
+
+/* ---------- Homepage Navigation ---------- */
+
+.flower-container a{
+
+  position:absolute;
+
+  font-family:"Source Serif 4", serif;
+  font-size:22px;
+  font-weight:400;
+
+  color:#F36A21;
+
+  text-decoration:none;
+
+  transition:opacity .2s ease;
+
+}
+
+.flower-container a:hover{
+
+  opacity:.5;
+
+}
+
+/* Works */
+
+.works{
+
+  top:10%;
+  left:50%;
+  transform:translateX(-50%);
+
+}
+
+/* Bio */
+
+.bio{
+
+  top:50%;
+  right:8%;
+  transform:translateY(-50%);
+
+}
+
+/* Texts */
+
+.texts{
+
+  top:50%;
+  left:8%;
+  transform:translateY(-50%);
+
+}
+
+/* CV */
+
+.cv{
+
+  bottom:12%;
+  left:50%;
+  transform:translateX(-50%);
+
+}
+
+/* Contact */
+
+.contact{
+
+  bottom:2%;
+  left:50%;
+  transform:translateX(-50%);
+
 }
 
 /* ---------- Gallery ---------- */
