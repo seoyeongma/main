@@ -317,3 +317,66 @@ nav a:hover{
     height:auto;
   }
 }
+/* ---------- CV ---------- */
+
+.cv-page{
+    max-width:850px;
+    margin:130px auto 120px;
+}
+
+.cv-page h1{
+    font-size:22px;
+    font-weight:500;
+    margin-bottom:18px;
+}
+
+.cv-contact{
+    margin-bottom:70px;
+}
+
+.cv-contact p{
+    margin-bottom:10px;
+    line-height:1.6;
+}
+
+.cv-contact span{
+    margin:0 20px;
+}
+
+.cv-contact a{
+    color:inherit;
+    text-decoration:underline;
+}
+
+.cv-section{
+    margin-bottom:70px;
+}
+
+.cv-section h2{
+    font-size:22px;
+    font-weight:500;
+    margin-bottom:30px;
+}
+
+.cv-row{
+
+    display:grid;
+
+    grid-template-columns:120px 1fr;
+
+    column-gap:40px;
+
+    margin-bottom:22px;
+
+    align-items:start;
+
+}
+
+.year{
+    white-space:nowrap;
+}
+
+.cv-row p{
+    margin-bottom:12px;
+    line-height:1.6;
+}
