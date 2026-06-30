@@ -241,14 +241,14 @@ nav a:hover{
 
 .installation-images{
   max-width:1200px;
-  margin:20px auto 120px;
+  margin:10px auto 120px;
   padding:0 30px;
 }
 
 .installation-images img{
   width:100%;
   display:block;
-  margin-bottom:20px;
+  margin-bottom:0px;
 }
 /* ---------- Detail Gallery ---------- */
 
