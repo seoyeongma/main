@@ -196,7 +196,7 @@ nav a:hover{
   padding:0 30px 80px;
   display:grid;
   grid-template-columns:1.2fr 1fr;
-  gap:310px;
+  gap:60px;
 }
 
 .detail-image{
