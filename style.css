@@ -270,6 +270,7 @@ nav a:hover{
     display:flex;
     align-items:flex-start;
     gap:70px;
+    margin-bottom:30px;
 }
 
 .detail-video-section{
