@@ -174,11 +174,11 @@ nav a:hover{
   aspect-ratio:5/4;
   object-fit:cover;
   display:block;
-  transition:opacity .3s;
+  transition:filter .3s ease;
 }
 
 .work:hover img{
-  opacity:.9;
+  filter: brightness(1.2);
 }
 
 .caption{
