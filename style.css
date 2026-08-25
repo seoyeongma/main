@@ -473,7 +473,7 @@ nav a:hover{
 
   .flower-container {
     position: relative;
-    width: 100vw;
+    width: 200vw;
     max-width: 500px;
     aspect-ratio: 1920 / 1080;
     margin: 0 auto;
