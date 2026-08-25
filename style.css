@@ -506,7 +506,7 @@ nav a:hover{
 
   .works {
     left: 50%;
-    top: 21.2%;
+    top: 18%;
     transform: translate(-50%, -100%);
   }
 
@@ -515,7 +515,7 @@ nav a:hover{
 
   .texts {
     left: 27%;
-    top: 49%;
+    top: 35%;
     transform: translate(-100%, -50%);
   }
 
@@ -524,7 +524,7 @@ nav a:hover{
 
   .bio {
     right: 25%;
-    top: 49%;
+    top: 35%;
     transform: translate(100%, -50%);
   }
 
@@ -552,7 +552,7 @@ nav a:hover{
   .center-name {
     position: absolute;
     left: 50%;
-    top: 49%;
+    top: 35%;
     transform: translate(-50%, -50%);
     font-size: 14px;
     white-space: nowrap;
