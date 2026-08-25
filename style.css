@@ -440,7 +440,7 @@ nav a:hover{
   color: inherit;
   font-size: 16px;
   line-height: 1.4;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .article-link:hover {
