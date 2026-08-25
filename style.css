@@ -473,11 +473,13 @@ nav a:hover{
 
   .flower-container {
     position: relative;
-    width: 200vw;
-    max-width: 500px;
+    width: 120vw;
+    max-width: none;
     aspect-ratio: 1920 / 1080;
     margin: 0 auto;
   }
+
+}
 
   .homepage-svg {
     width: 100%;
