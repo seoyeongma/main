@@ -475,7 +475,7 @@ nav a:hover{
     position: relative;
     width: 135vw;
     max-width: none;
-    aspect-ratio: 1920 / 1080;
+    aspect-ratio: 1024 / 1366;
     margin: 0 auto;
   }
 
