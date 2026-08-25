@@ -413,3 +413,32 @@ nav a:hover{
     margin-bottom:12px;
     line-height:1.6;
 }
+
+/* =========================
+   Articles / Texts
+   ========================= */
+
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.article-item {
+  margin: 0;
+}
+
+.article-title {
+  margin: 0 0 4px 0;
+}
+
+.article-link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition: font-style 0.2s ease;
+}
+
+.article-link:hover {
+  font-style: italic;
+}
