@@ -417,10 +417,12 @@ nav a:hover{
 /* =========================
    Articles / Texts
    ========================= */
+
 .article-list {
   display: flex;
   flex-direction: column;
   gap: 28px;
+  width: 100%;
 }
 
 .article-item {
@@ -439,18 +441,19 @@ nav a:hover{
   font-size: 16px;
   line-height: 1.4;
   text-decoration: none;
-  transition: font-style 0.2s ease;
 }
 
 .article-link:hover {
   font-style: italic;
 }
-  font-style: italic;
-}
 
 .texts-page {
-  width: 100%;
-  max-width: 1400px;
+  margin-top: 120px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
   margin: 0 auto;
   padding: 120px 8vw 100px;
 }
