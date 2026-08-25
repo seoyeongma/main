@@ -447,3 +447,9 @@ nav a:hover{
 }
   font-style: italic;
 }
+
+.texts-page {
+  padding-top: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
