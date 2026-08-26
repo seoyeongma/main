@@ -514,7 +514,7 @@ nav a:hover{
   /* Texts */
 
   .texts {
-    left: 15%;
+    left: 12%;
     top: 50%;
     transform: translate(-100%, -50%);
   }
