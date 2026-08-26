@@ -505,8 +505,8 @@ nav a:hover{
   /* Works */
 
   .works {
-    left: 50%;
-    top: 13%;
+    left: 51%;
+    top: 15%;
     transform: translate(-50%, -100%);
   }
 
@@ -514,7 +514,7 @@ nav a:hover{
   /* Texts */
 
   .texts {
-    left: 18%;
+    left: 17%;
     top: 50%;
     transform: translate(-100%, -50%);
   }
@@ -523,7 +523,7 @@ nav a:hover{
   /* Bio */
 
   .bio {
-    right: 14%;
+    right: 14.5%;
     top: 50%;
     transform: translate(100%, -50%);
   }
@@ -532,8 +532,8 @@ nav a:hover{
   /* CV */
 
   .cv {
-    left: 50%;
-    top: 84%;
+    left: 51%;
+    top: 82.5%;
     transform: translate(-50%, 35%);
   }
 
@@ -541,7 +541,7 @@ nav a:hover{
   /* Contact */
 
   .contact {
-    left: 50%;
+    left: 51%;
     top: 98%;
     transform: translate(-50%, 35%);
   }
@@ -551,7 +551,7 @@ nav a:hover{
 
   .center-name {
     position: absolute;
-    left: 50%;
+    left: 51%;
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 14px;
