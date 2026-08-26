@@ -506,7 +506,7 @@ nav a:hover{
 
   .works {
     left: 50%;
-    top: 18%;
+    top: 15%;
     transform: translate(-50%, -100%);
   }
 
@@ -514,7 +514,7 @@ nav a:hover{
   /* Texts */
 
   .texts {
-    left: 20%;
+    left: 15%;
     top: 50%;
     transform: translate(-100%, -50%);
   }
@@ -523,7 +523,7 @@ nav a:hover{
   /* Bio */
 
   .bio {
-    right: 20%;
+    right: 15%;
     top: 50%;
     transform: translate(100%, -50%);
   }
@@ -533,7 +533,7 @@ nav a:hover{
 
   .cv {
     left: 50%;
-    top: 85%;
+    top: 84%;
     transform: translate(-50%, 35%);
   }
 
