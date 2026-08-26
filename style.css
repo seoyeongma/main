@@ -508,6 +508,7 @@ nav a:hover{
   .works {
     left: 50%;
     top: 18%;
+    transform: translate(-50%, -100%);
   }
 
 
@@ -516,14 +517,14 @@ nav a:hover{
   .texts {
     left: 20%;
     top: 35%;
-
+    transform: translate(-100%, -50%);
   }
 
 
   /* Bio */
 
   .bio {
-    right: 75%;
+    right: 20%;
     top: 35%;
     transform: translate(100%, -50%);
   }
@@ -533,7 +534,7 @@ nav a:hover{
 
   .cv {
     left: 50%;
-    top: 35%;
+    top: 65%;
     transform: translate(-50%, 35%);
   }
 
@@ -542,7 +543,7 @@ nav a:hover{
 
   .contact {
     left: 50%;
-    top: 45%;
+    top: 80%;
     transform: translate(-50%, 35%);
   }
 
@@ -552,7 +553,7 @@ nav a:hover{
   .center-name {
     position: absolute;
     left: 50%;
-    top: 75.3%;
+    top: 35%;
     transform: translate(-50%, -50%);
     font-size: 14px;
     white-space: nowrap;
