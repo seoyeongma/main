@@ -505,7 +505,7 @@ nav a:hover{
   /* Works */
 
   .works {
-    left: 51%;
+    left: 50.5%;
     top: 15%;
     transform: translate(-50%, -100%);
   }
@@ -532,7 +532,7 @@ nav a:hover{
   /* CV */
 
   .cv {
-    left: 51%;
+    left: 50.5%;
     top: 82.5%;
     transform: translate(-50%, 35%);
   }
@@ -541,7 +541,7 @@ nav a:hover{
   /* Contact */
 
   .contact {
-    left: 51%;
+    left: 50.5%;
     top: 98%;
     transform: translate(-50%, 35%);
   }
@@ -551,7 +551,7 @@ nav a:hover{
 
   .center-name {
     position: absolute;
-    left: 51%;
+    left: 50.5%;
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 14px;
