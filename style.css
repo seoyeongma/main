@@ -476,7 +476,7 @@ nav a:hover{
     width: 135vw;
     max-width: none;
     aspect-ratio: 900 / 862;
-    margin: 0 auto;
+    margin: -120px auto 0;
     transform: translateY(-80px);
   }
 
