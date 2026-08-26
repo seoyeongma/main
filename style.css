@@ -462,7 +462,7 @@ nav a:hover{
    Mobile Homepage
    ========================= */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
   .homepage {
     height: calc(100vh - 60px);
