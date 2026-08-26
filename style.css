@@ -569,6 +569,13 @@ nav a:hover{
     margin-right: 10px;
   }
   
+  .article-list {
+    margin-left: 10;
+  }
+
+  .article-item {
+    margin-left: 10;
+  }
 }
 
 
