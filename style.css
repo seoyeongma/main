@@ -579,7 +579,10 @@ nav a:hover{
     max-width: none;
     margin: 15px 20px 50px;
   }
-}
+  .cv-row {
+    grid-template-columns: 80px 1fr;
+    column-gap: 20px;
+  }
   
 }
 
